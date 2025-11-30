@@ -1,5 +1,10 @@
-# template
-template for the  future proyects ;)
+# Sinthesys
+
+Biologically-inspired neural network research project that implements adaptive learning mechanisms based on concepts from neuroscience and systems biology. The system demonstrates how homeostatic regulation, dual-timescale memory consolidation, and attentional gating can create self-regulating learning behavior in artificial neural networks.
+
+
+# Links
+[Wiki: https://deepwiki.com/grisuno/sinthesys](https://deepwiki.com/grisuno/sinthesys)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
