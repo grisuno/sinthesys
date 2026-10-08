@@ -6,4 +6,12 @@
 
 ## External Imports
 
-- `app.py` -> logging, numpy, sklearn.datasets, sklearn.model_selection, torch, torch.nn, torch.nn.functional, torch.optim, warnings
+- `app.py` -> `logging`
+- `app.py` -> `numpy`
+- `app.py` -> `sklearn.datasets`
+- `app.py` -> `sklearn.model_selection`
+- `app.py` -> `torch`
+- `app.py` -> `torch.nn`
+- `app.py` -> `torch.nn.functional`
+- `app.py` -> `torch.optim`
+- `app.py` -> `warnings`

@@ -1,16 +1,42 @@
 # API
 
 ## app.py
-- `RealWorldEnvironment.__init__` (method) `app.py:32` `def __init__(self)`
-- `RealWorldEnvironment.get_batch` (method) `app.py:50` `def get_batch(self, phase, batch_size)`
-- `RealWorldEnvironment.measure_spatial_richness` (method) `app.py:68` `def measure_spatial_richness(activations)`
-- `HomeostasisEngine.__init__` (method) `app.py:81` `def __init__(self)`
-- `HomeostasisEngine.decide` (method) `app.py:85` `def decide(self, task_loss_val, richness_val, vn_entropy_val)`
-- `LiquidNeuron.__init__` (method) `app.py:100` `def __init__(self, in_dim, out_dim)`
-- `LiquidNeuron.forward` (method) `app.py:108` `def forward(self, x, plasticity_gate)`
-- `LiquidNeuron.consolidate_svd` (method) `app.py:123` `def consolidate_svd(self, repair_strength)`
-- `OrganismV8_Real.__init__` (method) `app.py:137` `def __init__(self, d_in, d_hid, d_out)`
-- `OrganismV8_Real.forward` (method) `app.py:147` `def forward(self, x, plasticity_gate)`
-- `OrganismV8_Real.get_structure_entropy` (method) `app.py:155` `def get_structure_entropy(self)`
-- `OrganismV8_Real.calc_ent` (method) `app.py:157` `def calc_ent(W)`
-- `OrganismV8_Real.run_real_world_challenge` (method) `app.py:169` `def run_real_world_challenge()`
+
+### measure_spatial_richness (method) `def measure_spatial_richness(activations)`
+- Defined: `app.py:68`
+
+### run_real_world_challenge (method) `def run_real_world_challenge()`
+- Defined: `app.py:169`
+
+### __init__ (method) `def __init__(self)`
+- Defined: `app.py:32`
+
+### get_batch (method) `def get_batch(self, phase, batch_size)`
+- Defined: `app.py:50`
+
+### __init__ (method) `def __init__(self)`
+- Defined: `app.py:81`
+
+### decide (method) `def decide(self, task_loss_val, richness_val, vn_entropy_val)`
+- Defined: `app.py:85`
+
+### __init__ (method) `def __init__(self, in_dim, out_dim)`
+- Defined: `app.py:100`
+
+### forward (method) `def forward(self, x, plasticity_gate)`
+- Defined: `app.py:108`
+
+### consolidate_svd (method) `def consolidate_svd(self, repair_strength)`
+- Defined: `app.py:123`
+
+### __init__ (method) `def __init__(self, d_in, d_hid, d_out)`
+- Defined: `app.py:137`
+
+### forward (method) `def forward(self, x, plasticity_gate)`
+- Defined: `app.py:147`
+
+### get_structure_entropy (method) `def get_structure_entropy(self)`
+- Defined: `app.py:155`
+
+### calc_ent (method) `def calc_ent(W)`
+- Defined: `app.py:157`
